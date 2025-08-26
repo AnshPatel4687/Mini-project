@@ -1,0 +1,664 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+
+}
+
+/* header section */
+header {
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+/* logo */
+.logo {
+    padding: 22px;
+
+
+}
+
+/* navbar */
+.navbar ul {
+    display: flex;
+    list-style: none;
+
+
+}
+
+.navbar ul li {
+    padding: 30px;
+}
+
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 550;
+    text-transform: uppercase;
+
+}
+
+.navbar ul li a:hover {
+    color: red;
+
+
+
+}
+
+/* shop word dropdown */
+
+.megamenu{
+    background-color: whitesmoke;
+    
+    position: absolute;
+    margin-top: 32px;
+    height: 0%;
+    overflow: hidden;
+    display: flex;
+    z-index: -1;
+
+
+}
+.megamenu ul {
+    flex-direction: column;
+    display: flex;
+}
+.megamenu ul li {
+    padding: 20px;
+}
+
+
+.shop:hover .megamenu {
+
+    transition-duration: 1s;
+    height: 255px;
+    width: 50%;
+}
+
+/* accessories word dropdown */
+.acc {
+    background-color: whitesmoke;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 32px;
+    height: 0%;
+    overflow: hidden;
+    display: flex;
+    z-index: -1;
+
+
+}
+
+.accessories .acc li {
+    padding: 20px;
+}
+
+.accessories:hover .acc {
+    display: block;
+    transition-duration: 1s;
+    height: 225px;
+}
+
+/* contact us drop down */
+.con {
+    background-color: whitesmoke;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 32px;
+    height: 0%;
+    overflow: hidden;
+    display: flex;
+    z-index: -1;
+
+
+}
+
+.contact .con li {
+    padding: 20px;
+}
+
+.contact:hover .con {
+    display: block;
+    transition-duration: 1s;
+    height: 125px;
+}
+
+/* icons */
+.icons {
+    font-size: 25px;
+    padding: 25px;
+
+}
+
+.icon_iner i {
+    padding: 10px;
+}
+
+.icon_iner i:hover {
+    color: red;
+
+}
+
+/* main section */
+.main {
+
+    height: 800px;
+}
+
+.mainimg img {
+
+
+    width: 100%;
+}
+
+.main_text {
+
+    margin-top: -550px;
+
+
+    margin-left: 190px;
+}
+
+.main_text p {
+    font-size: 32px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.main_text h1 {
+    font-size: 58px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+
+
+.shopnow button {
+    height: 50px;
+    width: 130px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.shopnow button:hover {
+    color: white;
+    background-color: red;
+    transition-duration: .5s;
+}
+
+
+/* with us section  */
+
+.withus {
+    position: relative;
+    z-index: -1;
+    margin-top: 150px;
+}
+
+
+.withus_img img {
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.withtext {
+    margin-left: 1050px;
+    margin-top: -1080px;
+
+    position: absolute;
+
+}
+
+.withtext h1 {
+    text-transform: capitalize;
+    font-size: 55px;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+
+.p1 {
+
+    height: 100%;
+    margin-top: 50px;
+
+    padding: 1px;
+    margin: 50px;
+}
+
+
+/* discover cycle unit section */
+.towork {
+    height: 800px;
+
+}
+
+.work {
+    background-image: url(/images/bg3_1944x.webp);
+    z-index: 1;
+    height: 800px;
+    width: 100%;
+    color: white;
+}
+
+.work-text {
+    margin-left: 280px;
+    margin-top: 300px;
+    position: absolute;
+}
+
+.work-text h1 {
+    text-transform: uppercase;
+    font-size: 68px;
+}
+
+.work-text h2 {
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.btn1 {
+    text-transform: uppercase;
+    height: 50px;
+    width: 150px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid red;
+}
+
+.btn2 {
+    text-transform: uppercase;
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid red;
+    margin-left: 20px;
+}
+
+.btn1:hover {
+    background-color: rgb(182, 10, 10);
+    transition-duration: .7s;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: rgb(182, 10, 10);
+    transition-duration: .7s;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+/* selling section */
+.sell {
+    height: 750px;
+    position: relative;
+}
+
+.sell h1 {
+    margin-top: 100px;
+    text-transform: uppercase;
+    margin-left: 80px;
+    position: absolute;
+    font-size: 52px;
+}
+
+.sell p {
+    position: absolute;
+    font-size: 292px;
+    opacity: 0.1;
+    text-shadow: 25px 5px rgb(255, 0, 0);
+}
+
+.sell h2 {
+    margin-top: 180px;
+    text-transform: uppercase;
+    margin-left: 80px;
+    position: absolute;
+    font-size: 30px;
+}
+
+/* slots */
+.slot {
+    margin-top: 350px;
+    position: absolute;
+    display: flex;
+
+}
+
+.slot1 {
+    border: 1px solid;
+    width: 350px;
+    height: 480px;
+    margin: 15px;
+}
+
+.slot1 img {
+    width: 100%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.cart {
+    text-transform: uppercase;
+    height: 50px;
+    width: 150px;
+    color: red;
+
+    background-color: white;
+    border: 1px solid red;
+}
+
+.cart:hover {
+    background-color: red;
+    color: white;
+    transition-duration: 1s;
+}
+
+.slot1 {
+    text-align: center;
+}
+
+/* press section */
+.press {
+    height: 870px;
+    background-color: rgb(27, 27, 27);
+    margin-top: 150px;
+    position: relative;
+    /* display: flex; */
+
+}
+
+.press h1 {
+    color: white;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 180px;
+
+}
+
+.pressbox {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    /* position: absolute; */
+}
+
+.box1 {
+    border: 1px solid none;
+    margin-top: 200px;
+    /* position: absolute; */
+    width: 400px;
+    height: 550px;
+    background-color: white;
+}
+
+.box1 img {
+    width: 100%;
+}
+
+.box1 img:hover {
+    filter: brightness(40%);
+}
+
+.read {
+    height: 50px;
+    width: 100px;
+    background-color: transparent;
+    border: 1px solid red;
+}
+
+.read:hover {
+    color: white;
+    background-color: red;
+    transition-duration: .5s;
+}
+
+.boxtext {
+    border: 1px solid none;
+    text-align: center;
+    width: 350px;
+    margin-top: -30px;
+    margin-left: 23px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+}
+
+.shipping {
+    text-align: center;
+
+    background-color: rgb(223, 223, 223);
+    position: relative;
+}
+
+.shipping a {
+    text-decoration: underline red;
+    color: black;
+
+
+}
+
+.shipping a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+/* follow us */
+.follow {
+    height: 500px;
+    background-color: rgb(208, 208, 208);
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.follow h1 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -1300px;
+    font-family: sans-serif;
+    font-size: 38px;
+}
+
+.insta {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin-top: 150px;
+
+}
+
+.insta img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.insta i {
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    /* margin-left: 120px; */
+    /* margin-top: 130px; */
+    color: white;
+
+
+
+
+}
+
+
+.gbbar{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+ transform: scale(0);
+    transition: all .2s linear;
+}
+
+.gbbar i {
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+
+/* footer */
+.footer {
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(219, 219, 219);
+
+}
+
+.footer2 {
+    display: flex;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.logotext {
+    margin-left: 50px;
+    width: 400px;
+}
+
+.logotext img {
+    height: 50px;
+}
+
+.logotext p {
+    line-height: 25px;
+}
+
+.shop_footer {
+    margin-left: 150px;
+    width: 400px;
+}
+
+.shop_footer li {
+    list-style: none;
+    padding: 5px;
+}
+
+.shop_footer li a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    text-transform: capitalize;
+
+
+
+
+}
+
+.shop_footer2 {
+    margin-left: -150px;
+    width: 400px;
+}
+
+.shop_footer2 li {
+    list-style: none;
+    padding: 5px;
+}
+
+.shop_footer2 li a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    text-transform: capitalize;
+
+
+
+
+}
+
+.addreas {
+
+    width: 300px;
+    margin-left: -150px;
+}
+
+.newsletr {
+    margin-left: 60px;
+    width: 400px;
+
+}
+
+#new {
+    height: 40px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    border: 1px solid grey;
+}
+
+#submit {
+    height: 40px;
+    width: 80px;
+    margin-left: -10px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    margin-top: 0px;
+    position: absolute;
+}
+
+#submit:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    transition-duration: .5s;
+}
+
+/* last footer */
+.lastfoo {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconsfoo {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.iconsfoo i:hover {
+    color: red;
+}
+
+.pay {
+    font-size: 40px;
+    cursor: pointer;
+}
+/* COMPLETE */
